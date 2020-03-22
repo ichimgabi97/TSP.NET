@@ -1,0 +1,5 @@
+C:\Users\ichim\Desktop\TSP.NET\ClassLibraryNetCore\ClassLibraryNetCore\bin\Debug\netcoreapp3.1\ClassLibraryNetCore.deps.json
+C:\Users\ichim\Desktop\TSP.NET\ClassLibraryNetCore\ClassLibraryNetCore\bin\Debug\netcoreapp3.1\ClassLibraryNetCore.dll
+C:\Users\ichim\Desktop\TSP.NET\ClassLibraryNetCore\ClassLibraryNetCore\obj\Debug\netcoreapp3.1\ClassLibraryNetCore.csprojAssemblyReference.cache
+C:\Users\ichim\Desktop\TSP.NET\ClassLibraryNetCore\ClassLibraryNetCore\obj\Debug\netcoreapp3.1\ClassLibraryNetCore.AssemblyInfoInputs.cache
+C:\Users\ichim\Desktop\TSP.NET\ClassLibraryNetCore\ClassLibraryNetCore\obj\Debug\netcoreapp3.1\ClassLibraryNetCore.AssemblyInfo.cs

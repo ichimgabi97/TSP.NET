@@ -1,0 +1,11 @@
+C:\Users\ichim\Desktop\TSP.NET\ModelDesignFist_L1\ModelDesignFist_L1\obj\Debug\ModelDesignFist_L1.csprojAssemblyReference.cache
+C:\Users\ichim\Desktop\TSP.NET\ModelDesignFist_L1\ModelDesignFist_L1\bin\Debug\ModelDesignFist_L1.exe.config
+C:\Users\ichim\Desktop\TSP.NET\ModelDesignFist_L1\ModelDesignFist_L1\bin\Debug\ModelDesignFist_L1.exe
+C:\Users\ichim\Desktop\TSP.NET\ModelDesignFist_L1\ModelDesignFist_L1\bin\Debug\ModelDesignFist_L1.pdb
+C:\Users\ichim\Desktop\TSP.NET\ModelDesignFist_L1\ModelDesignFist_L1\bin\Debug\EntityFramework.dll
+C:\Users\ichim\Desktop\TSP.NET\ModelDesignFist_L1\ModelDesignFist_L1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ichim\Desktop\TSP.NET\ModelDesignFist_L1\ModelDesignFist_L1\bin\Debug\EntityFramework.xml
+C:\Users\ichim\Desktop\TSP.NET\ModelDesignFist_L1\ModelDesignFist_L1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ichim\Desktop\TSP.NET\ModelDesignFist_L1\ModelDesignFist_L1\obj\Debug\ModelDesignFist_L1.csproj.CopyComplete
+C:\Users\ichim\Desktop\TSP.NET\ModelDesignFist_L1\ModelDesignFist_L1\obj\Debug\ModelDesignFist_L1.exe
+C:\Users\ichim\Desktop\TSP.NET\ModelDesignFist_L1\ModelDesignFist_L1\obj\Debug\ModelDesignFist_L1.pdb

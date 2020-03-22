@@ -1,0 +1,17 @@
+C:\Users\ichim\Desktop\TSP.NET\MyPhotos\MyPhotosApp\bin\Debug\MyPhotosApp.exe.config
+C:\Users\ichim\Desktop\TSP.NET\MyPhotos\MyPhotosApp\bin\Debug\MyPhotosApp.exe
+C:\Users\ichim\Desktop\TSP.NET\MyPhotos\MyPhotosApp\bin\Debug\MyPhotosApp.pdb
+C:\Users\ichim\Desktop\TSP.NET\MyPhotos\MyPhotosApp\obj\Debug\MyPhotosApp.csprojAssemblyReference.cache
+C:\Users\ichim\Desktop\TSP.NET\MyPhotos\MyPhotosApp\obj\Debug\MyPhotosApp.Form1.resources
+C:\Users\ichim\Desktop\TSP.NET\MyPhotos\MyPhotosApp\obj\Debug\MyPhotosApp.Properties.Resources.resources
+C:\Users\ichim\Desktop\TSP.NET\MyPhotos\MyPhotosApp\obj\Debug\MyPhotosApp.csproj.GenerateResource.cache
+C:\Users\ichim\Desktop\TSP.NET\MyPhotos\MyPhotosApp\obj\Debug\MyPhotosApp.exe
+C:\Users\ichim\Desktop\TSP.NET\MyPhotos\MyPhotosApp\obj\Debug\MyPhotosApp.pdb
+C:\Users\ichim\Desktop\TSP.NET\MyPhotos\MyPhotosApp\bin\Debug\MyPhotos.dll
+C:\Users\ichim\Desktop\TSP.NET\MyPhotos\MyPhotosApp\bin\Debug\EntityFramework.dll
+C:\Users\ichim\Desktop\TSP.NET\MyPhotos\MyPhotosApp\bin\Debug\MyPhotos.pdb
+C:\Users\ichim\Desktop\TSP.NET\MyPhotos\MyPhotosApp\bin\Debug\MyPhotos.dll.config
+C:\Users\ichim\Desktop\TSP.NET\MyPhotos\MyPhotosApp\bin\Debug\EntityFramework.xml
+C:\Users\ichim\Desktop\TSP.NET\MyPhotos\MyPhotosApp\obj\Debug\MyPhotosApp.csproj.CopyComplete
+C:\Users\ichim\Desktop\TSP.NET\MyPhotos\MyPhotosApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ichim\Desktop\TSP.NET\MyPhotos\MyPhotosApp\bin\Debug\EntityFramework.SqlServer.xml
