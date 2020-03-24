@@ -1,0 +1,14 @@
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\PostComment\HostWCF\bin\Debug\HostWCF.exe.config
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\PostComment\HostWCF\bin\Debug\HostWCF.exe
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\PostComment\HostWCF\bin\Debug\HostWCF.pdb
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\PostComment\HostWCF\bin\Debug\ObjectWCF.dll
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\PostComment\HostWCF\bin\Debug\PostComment.dll
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\PostComment\HostWCF\bin\Debug\EntityFramework.dll
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\PostComment\HostWCF\bin\Debug\ObjectWCF.pdb
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\PostComment\HostWCF\bin\Debug\PostComment.pdb
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\PostComment\HostWCF\bin\Debug\PostComment.dll.config
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\PostComment\HostWCF\bin\Debug\EntityFramework.xml
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\PostComment\HostWCF\obj\Debug\HostWCF.csprojAssemblyReference.cache
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\PostComment\HostWCF\obj\Debug\HostWCF.csproj.CopyComplete
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\PostComment\HostWCF\obj\Debug\HostWCF.exe
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\PostComment\HostWCF\obj\Debug\HostWCF.pdb

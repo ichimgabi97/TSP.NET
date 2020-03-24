@@ -1,0 +1,11 @@
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\PostComment\ObjectWCF\bin\Debug\ObjectWCF.dll
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\PostComment\ObjectWCF\bin\Debug\ObjectWCF.pdb
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\PostComment\ObjectWCF\bin\Debug\PostComment.dll
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\PostComment\ObjectWCF\bin\Debug\EntityFramework.dll
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\PostComment\ObjectWCF\bin\Debug\PostComment.pdb
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\PostComment\ObjectWCF\bin\Debug\PostComment.dll.config
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\PostComment\ObjectWCF\bin\Debug\EntityFramework.xml
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\PostComment\ObjectWCF\obj\Debug\ObjectWCF.csprojAssemblyReference.cache
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\PostComment\ObjectWCF\obj\Debug\ObjectWCF.csproj.CopyComplete
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\PostComment\ObjectWCF\obj\Debug\ObjectWCF.dll
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\PostComment\ObjectWCF\obj\Debug\ObjectWCF.pdb

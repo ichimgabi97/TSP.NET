@@ -1,0 +1,11 @@
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\PostComment\PostComment\bin\Debug\PostComment.dll.config
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\PostComment\PostComment\bin\Debug\PostComment.dll
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\PostComment\PostComment\bin\Debug\PostComment.pdb
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\PostComment\PostComment\bin\Debug\EntityFramework.dll
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\PostComment\PostComment\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\PostComment\PostComment\bin\Debug\EntityFramework.xml
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\PostComment\PostComment\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\PostComment\PostComment\obj\Debug\PostComment.csprojAssemblyReference.cache
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\PostComment\PostComment\obj\Debug\PostComment.csproj.CopyComplete
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\PostComment\PostComment\obj\Debug\PostComment.dll
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\PostComment\PostComment\obj\Debug\PostComment.pdb
