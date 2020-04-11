@@ -11,7 +11,10 @@ namespace MyPhotos
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.Runtime.Serialization;
+
+
+    [DataContract(IsReference = true)]
     public partial class Photos
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
@@ -19,14 +22,20 @@ namespace MyPhotos
         {
             this.Tags_photo = new HashSet<Tags_photo>();
         }
-    
+
+        [DataMember]
         public int Id { get; set; }
+        [DataMember]
         public string Name { get; set; }
+        [DataMember]
         public Nullable<System.DateTime> Last_updated { get; set; }
+        [DataMember]
         public int Media_Id { get; set; }
-    
+
+        [DataMember]
         public virtual Medias Media { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        [DataMember]
         public virtual ICollection<Tags_photo> Tags_photo { get; set; }
     }
 }

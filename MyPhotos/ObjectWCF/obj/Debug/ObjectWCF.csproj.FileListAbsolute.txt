@@ -1,0 +1,15 @@
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\ObjectWCF\bin\Debug\ObjectWCF.dll
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\ObjectWCF\bin\Debug\ObjectWCF.pdb
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\ObjectWCF\bin\Debug\MyphotoWCF.dll
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\ObjectWCF\bin\Debug\MyPhotos.dll
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\ObjectWCF\bin\Debug\EntityFramework.dll
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\ObjectWCF\bin\Debug\MyphotoWCF.pdb
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\ObjectWCF\bin\Debug\MyphotoWCF.dll.config
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\ObjectWCF\bin\Debug\MyPhotos.pdb
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\ObjectWCF\bin\Debug\MyPhotos.dll.config
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\ObjectWCF\bin\Debug\EntityFramework.xml
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\ObjectWCF\obj\Debug\ObjectWCF.csprojAssemblyReference.cache
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\ObjectWCF\obj\Debug\ObjectWCF.csproj.CoreCompileInputs.cache
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\ObjectWCF\obj\Debug\ObjectWCF.csproj.CopyComplete
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\ObjectWCF\obj\Debug\ObjectWCF.dll
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\ObjectWCF\obj\Debug\ObjectWCF.pdb

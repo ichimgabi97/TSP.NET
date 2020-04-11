@@ -1,0 +1,10 @@
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\ClientWCF\obj\Debug\ClientWCF.csprojAssemblyReference.cache
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\ClientWCF\obj\Debug\ClientWCF.Properties.Resources.resources
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\ClientWCF\obj\Debug\ClientWCF.csproj.GenerateResource.cache
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\ClientWCF\obj\Debug\ClientWCF.csproj.CoreCompileInputs.cache
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\ClientWCF\bin\Debug\ClientWCF.exe.config
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\ClientWCF\bin\Debug\ClientWCF.exe
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\ClientWCF\bin\Debug\ClientWCF.pdb
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\ClientWCF\obj\Debug\ClientWCF.exe
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\ClientWCF\obj\Debug\ClientWCF.pdb
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\ClientWCF\obj\Debug\ClientWCF.Form1.resources

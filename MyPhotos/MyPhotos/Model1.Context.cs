@@ -18,6 +18,8 @@ namespace MyPhotos
         public Model1Container()
             : base("name=Model1Container")
         {
+            Configuration.LazyLoadingEnabled = false;
+            Configuration.ProxyCreationEnabled = false;
         }
     
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
