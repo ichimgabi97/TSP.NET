@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="Model1.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="Model1StoreContainer">
+    <EntitySet Name="Medias" EntityType="Model1.Store.Medias" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Videos" EntityType="Model1.Store.Videos" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Photos" EntityType="Model1.Store.Photos" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Tags_video" EntityType="Model1.Store.Tags_video" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Tags_photo" EntityType="Model1.Store.Tags_photo" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="MediasPhotos" Association="Model1.Store.MediasPhotos">
+      <End Role="Medias" EntitySet="Medias" />
+      <End Role="Photos" EntitySet="Photos" />
+    </AssociationSet>
+    <AssociationSet Name="MediasVideos" Association="Model1.Store.MediasVideos">
+      <End Role="Medias" EntitySet="Medias" />
+      <End Role="Videos" EntitySet="Videos" />
+    </AssociationSet>
+    <AssociationSet Name="PhotosTags_photo" Association="Model1.Store.PhotosTags_photo">
+      <End Role="Photos" EntitySet="Photos" />
+      <End Role="Tags_photo" EntitySet="Tags_photo" />
+    </AssociationSet>
+    <AssociationSet Name="VideosTags_video" Association="Model1.Store.VideosTags_video">
+      <End Role="Videos" EntitySet="Videos" />
+      <End Role="Tags_video" EntitySet="Tags_video" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Medias">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Path" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Add_date" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Videos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Last_updated" Type="datetime" Nullable="true" />
+    <Property Name="Media_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Photos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Last_updated" Type="datetime" Nullable="true" />
+    <Property Name="Media_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Tags_video">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Zone" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Person" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Event" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Automobile" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Other_tags" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Video_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Tags_photo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Zone" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Person" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Event" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Automobile" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Other_tags" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="Photo_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="MediasPhotos">
+    <End Role="Medias" Type="Model1.Store.Medias" Multiplicity="1" />
+    <End Role="Photos" Type="Model1.Store.Photos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Medias">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Photos">
+        <PropertyRef Name="Media_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MediasVideos">
+    <End Role="Medias" Type="Model1.Store.Medias" Multiplicity="1" />
+    <End Role="Videos" Type="Model1.Store.Videos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Medias">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Videos">
+        <PropertyRef Name="Media_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PhotosTags_photo">
+    <End Role="Photos" Type="Model1.Store.Photos" Multiplicity="1" />
+    <End Role="Tags_photo" Type="Model1.Store.Tags_photo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Photos">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Tags_photo">
+        <PropertyRef Name="Photo_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="VideosTags_video">
+    <End Role="Videos" Type="Model1.Store.Videos" Multiplicity="1" />
+    <End Role="Tags_video" Type="Model1.Store.Tags_video" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Videos">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Tags_video">
+        <PropertyRef Name="Video_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+        <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Medias" EntityType="Model1.Medias" />
+          <EntitySet Name="Videos" EntityType="Model1.Videos" />
+          <EntitySet Name="Photos" EntityType="Model1.Photos" />
+          <EntitySet Name="Tags_video" EntityType="Model1.Tags_video" />
+          <EntitySet Name="Tags_photo" EntityType="Model1.Tags_photo" />
+          <AssociationSet Name="MediasPhotos" Association="Model1.MediasPhotos">
+            <End Role="Medias" EntitySet="Medias" />
+            <End Role="Photos" EntitySet="Photos" />
+          </AssociationSet>
+          <AssociationSet Name="MediasVideos" Association="Model1.MediasVideos">
+            <End Role="Medias" EntitySet="Medias" />
+            <End Role="Videos" EntitySet="Videos" />
+          </AssociationSet>
+          <AssociationSet Name="PhotosTags_photo" Association="Model1.PhotosTags_photo">
+            <End Role="Photos" EntitySet="Photos" />
+            <End Role="Tags_photo" EntitySet="Tags_photo" />
+          </AssociationSet>
+          <AssociationSet Name="VideosTags_video" Association="Model1.VideosTags_video">
+            <End Role="Videos" EntitySet="Videos" />
+            <End Role="Tags_video" EntitySet="Tags_video" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Medias">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Path" Type="String" Nullable="false" />
+          <Property Name="Add_date" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="Photos" Relationship="Model1.MediasPhotos" FromRole="Medias" ToRole="Photos" />
+          <NavigationProperty Name="Videos" Relationship="Model1.MediasVideos" FromRole="Medias" ToRole="Videos" />
+        </EntityType>
+        <EntityType Name="Videos">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <Property Name="Last_updated" Type="DateTime" Nullable="true" />
+          <NavigationProperty Name="Media" Relationship="Model1.MediasVideos" FromRole="Videos" ToRole="Medias" />
+          <Property Name="Media_Id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Tags_video" Relationship="Model1.VideosTags_video" FromRole="Videos" ToRole="Tags_video" />
+        </EntityType>
+        <EntityType Name="Photos">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <Property Name="Last_updated" Type="DateTime" Nullable="true" />
+          <NavigationProperty Name="Media" Relationship="Model1.MediasPhotos" FromRole="Photos" ToRole="Medias" />
+          <Property Name="Media_Id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Tags_photo" Relationship="Model1.PhotosTags_photo" FromRole="Photos" ToRole="Tags_photo" />
+        </EntityType>
+        <EntityType Name="Tags_video">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Zone" Type="String" Nullable="true" />
+          <Property Name="Person" Type="String" Nullable="true" />
+          <Property Name="Event" Type="String" Nullable="true" />
+          <Property Name="Automobile" Type="String" Nullable="true" />
+          <Property Name="Other_tags" Type="String" Nullable="true" />
+          <NavigationProperty Name="Video" Relationship="Model1.VideosTags_video" FromRole="Tags_video" ToRole="Videos" />
+          <Property Name="Video_Id" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Tags_photo">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Zone" Type="String" Nullable="true" />
+          <Property Name="Person" Type="String" Nullable="true" />
+          <Property Name="Event" Type="String" Nullable="true" />
+          <Property Name="Automobile" Type="String" Nullable="true" />
+          <Property Name="Other_tags" Type="String" Nullable="true" />
+          <NavigationProperty Name="Photo" Relationship="Model1.PhotosTags_photo" FromRole="Tags_photo" ToRole="Photos" />
+          <Property Name="Photo_Id" Type="Int32" Nullable="false" />
+        </EntityType>
+        <Association Name="MediasPhotos">
+          <End Type="Model1.Medias" Role="Medias" Multiplicity="1" />
+          <End Type="Model1.Photos" Role="Photos" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Medias">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Photos">
+              <PropertyRef Name="Media_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="MediasVideos">
+          <End Type="Model1.Medias" Role="Medias" Multiplicity="1" />
+          <End Type="Model1.Videos" Role="Videos" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Medias">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Videos">
+              <PropertyRef Name="Media_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="PhotosTags_photo">
+          <End Type="Model1.Photos" Role="Photos" Multiplicity="1" />
+          <End Type="Model1.Tags_photo" Role="Tags_photo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Photos">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Tags_photo">
+              <PropertyRef Name="Photo_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="VideosTags_video">
+          <End Type="Model1.Videos" Role="Videos" Multiplicity="1" />
+          <End Type="Model1.Tags_video" Role="Tags_video" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Videos">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Tags_video">
+              <PropertyRef Name="Video_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Model1StoreContainer" CdmEntityContainer="Model1Container">
+    <EntitySetMapping Name="Medias">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.Medias)">
+        <MappingFragment StoreEntitySet="Medias">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Path" ColumnName="Path" />
+          <ScalarProperty Name="Add_date" ColumnName="Add_date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Videos">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.Videos)">
+        <MappingFragment StoreEntitySet="Videos">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Last_updated" ColumnName="Last_updated" />
+          <ScalarProperty Name="Media_Id" ColumnName="Media_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Photos">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.Photos)">
+        <MappingFragment StoreEntitySet="Photos">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Last_updated" ColumnName="Last_updated" />
+          <ScalarProperty Name="Media_Id" ColumnName="Media_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tags_video">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.Tags_video)">
+        <MappingFragment StoreEntitySet="Tags_video">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Zone" ColumnName="Zone" />
+          <ScalarProperty Name="Person" ColumnName="Person" />
+          <ScalarProperty Name="Event" ColumnName="Event" />
+          <ScalarProperty Name="Automobile" ColumnName="Automobile" />
+          <ScalarProperty Name="Other_tags" ColumnName="Other_tags" />
+          <ScalarProperty Name="Video_Id" ColumnName="Video_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tags_photo">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.Tags_photo)">
+        <MappingFragment StoreEntitySet="Tags_photo">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Zone" ColumnName="Zone" />
+          <ScalarProperty Name="Person" ColumnName="Person" />
+          <ScalarProperty Name="Event" ColumnName="Event" />
+          <ScalarProperty Name="Automobile" ColumnName="Automobile" />
+          <ScalarProperty Name="Other_tags" ColumnName="Other_tags" />
+          <ScalarProperty Name="Photo_Id" ColumnName="Photo_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+        <DesignerProperty Name="UseLegacyProvider" Value="False" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,85 @@
+R1. 
+
+Controale comune: Button, CheckBox; Containere: GroupBox, Pointer; Meniu: MeniuStrip;
+Componente: ImageList, Timer; Printare: PrintDialog; Dialog: FontDialog; Data: Chart;
+WPF: ElementHost
+
+R2.
+
+ListView. List
+ListView. Details
+ListView. Tile
+ListView. LargeIcon
+ListView. SmallIcon
+
+R3.
+
+checked
+unchecked
+indeterminate
+
+R4.
+
+Când un textbox este ReadOnly textbox este trimis ca parte a datelor postback ale formularului. Textul textbox-ului poate fi 
+regăsit folosind Request.Form [TextBox1.ClientID], dar TextBox1.Text ar fi gol, adică nu vom putea obține textul în postarea paginii.
+
+Atunci când un textbox este dezactivată, textul textbox-ului nu vine ca parte a datelor postback ale Form. 
+Deci Request.Form [TextBox1.ClientID] și TextBox1.Text, ambele vor fi goale.
+
+
+R5. 
+
+DataReader si DataSet (using System.Data.dll)
+
+R6.
+ 
+Obiectul DataAdapter reprezinta o multime de comenzi si o conexiune la baza de date,
+comenzi ce sunt folosite pentru a completa un DataSet si a actualiza baza de date.
+Obiectele DataAdapter actioneaza ca un “pod” intre baza de date si obiectele deconectate.
+
+DataReader este proiectat pentru a regasi si examina inregistrarile returnate de cererea facuta serverului bazei
+de date
+DataReader creaza un « cursor » ce poate fi parcurs (o singura data) secvential de la inceput
+catre sfarsit.
+DataReader nu suporta update.
+Valorile returnate de DataReader sunt read only
+
+R12.
+
+HTTP 
+net.tcp
+net.pipe 
+net.msmq
+
+R13. 
+
+Single : O instanta a clasei serviciului serveste toate cererile ce vin de la clienti. Acest mod implementeaza un singleton.
+PerCall : O instanta a clasei serviciului este creata pentru fiecare cerere.
+PerSession : O instanta a clasei serviciului este creata pentru fiecare sesiune a clientului. Cand folosim canale fara sesiune, 
+toate serviciile se comporta ca fiind PerCall chiar daca am specificat PerSession.
+
+R14. 
+
+Interfata IMetadataExchange expune metode utilizate pentru a returna metadatele despre un serviciu. Atunci cand programati serviciile Windows Communication Foundation (WCF), 
+este util sa publicati metadate despre serviciu.
+
+R17.
+
+Address
+Binding
+Contract
+
+R19.
+
+Contracte pentru servicii - ServiceContract
+Contracte de date - DataContract
+Contracte pentru erori - FaultContract
+Contracte pentru mesaj - MessageContract
+
+R20.
+
+HTTP
+TCP
+Peer network
+IPC (Inter-Process Communication peste pipeuri cu nume)
+MSMQ
