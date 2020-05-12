@@ -1,0 +1,2 @@
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\ASP Net Core WCF EF Razor Pages - Tutorial\HostWCF\obj\Debug\HostWCF.csprojAssemblyReference.cache
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\ASP Net Core WCF EF Razor Pages - Tutorial\HostWCF\obj\Debug\HostWCF.csproj.CoreCompileInputs.cache

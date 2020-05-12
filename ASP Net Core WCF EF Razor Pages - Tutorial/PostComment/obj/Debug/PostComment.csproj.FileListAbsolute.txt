@@ -1,0 +1,2 @@
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\ASP Net Core WCF EF Razor Pages - Tutorial\PostComment\obj\Debug\PostComment.csprojAssemblyReference.cache
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\ASP Net Core WCF EF Razor Pages - Tutorial\PostComment\obj\Debug\PostComment.csproj.CoreCompileInputs.cache

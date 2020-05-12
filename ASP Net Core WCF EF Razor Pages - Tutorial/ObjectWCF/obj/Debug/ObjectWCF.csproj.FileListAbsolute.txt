@@ -1,0 +1,1 @@
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\ASP Net Core WCF EF Razor Pages - Tutorial\ObjectWCF\obj\Debug\ObjectWCF.csproj.CoreCompileInputs.cache
