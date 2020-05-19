@@ -1,0 +1,24 @@
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\WebApplication\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\WebApplication\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\WebApplication\bin\Debug\netcoreapp3.1\Connected Services\Microsoft WCF Web Service Reference Provider\ConnectedService.json
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\WebApplication\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\WebApplication\bin\Debug\netcoreapp3.1\WebApplication.exe
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\WebApplication\obj\Debug\netcoreapp3.1\WebApplication.csprojAssemblyReference.cache
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\WebApplication\obj\Debug\netcoreapp3.1\WebApplication.RazorAssemblyInfo.cache
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\WebApplication\obj\Debug\netcoreapp3.1\WebApplication.RazorAssemblyInfo.cs
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\WebApplication\obj\Debug\netcoreapp3.1\WebApplication.AssemblyInfoInputs.cache
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\WebApplication\obj\Debug\netcoreapp3.1\WebApplication.AssemblyInfo.cs
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\WebApplication\obj\Debug\netcoreapp3.1\WebApplication.TagHelpers.input.cache
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\WebApplication\obj\Debug\netcoreapp3.1\WebApplication.TagHelpers.output.cache
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\WebApplication\obj\Debug\netcoreapp3.1\WebApplication.RazorCoreGenerate.cache
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\WebApplication\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\WebApplication\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\WebApplication\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\WebApplication\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\WebApplication\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\WebApplication\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\WebApplication\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\WebApplication\obj\Debug\netcoreapp3.1\WebApplication.RazorTargetAssemblyInfo.cache
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\WebApplication\obj\Debug\netcoreapp3.1\WebApplication.RazorTargetAssemblyInfo.cs
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\WebApplication\obj\Debug\netcoreapp3.1\staticwebassets\WebApplication.StaticWebAssets.Manifest.cache
+C:\Users\ichim\Desktop\TSP.NET\TSP.NET\MyPhotos\WebApplication\obj\Debug\netcoreapp3.1\staticwebassets\WebApplication.StaticWebAssets.xml
