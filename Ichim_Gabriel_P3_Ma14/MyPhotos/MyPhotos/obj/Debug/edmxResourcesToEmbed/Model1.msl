@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Model1StoreContainer" CdmEntityContainer="Model1Container">
+    <EntitySetMapping Name="Medias">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.Medias)">
+        <MappingFragment StoreEntitySet="Medias">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Path" ColumnName="Path" />
+          <ScalarProperty Name="Add_date" ColumnName="Add_date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Videos">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.Videos)">
+        <MappingFragment StoreEntitySet="Videos">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Last_updated" ColumnName="Last_updated" />
+          <ScalarProperty Name="Media_Id" ColumnName="Media_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Photos">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.Photos)">
+        <MappingFragment StoreEntitySet="Photos">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Last_updated" ColumnName="Last_updated" />
+          <ScalarProperty Name="Media_Id" ColumnName="Media_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tags_video">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.Tags_video)">
+        <MappingFragment StoreEntitySet="Tags_video">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Zone" ColumnName="Zone" />
+          <ScalarProperty Name="Person" ColumnName="Person" />
+          <ScalarProperty Name="Event" ColumnName="Event" />
+          <ScalarProperty Name="Automobile" ColumnName="Automobile" />
+          <ScalarProperty Name="Other_tags" ColumnName="Other_tags" />
+          <ScalarProperty Name="Video_Id" ColumnName="Video_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tags_photo">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.Tags_photo)">
+        <MappingFragment StoreEntitySet="Tags_photo">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Zone" ColumnName="Zone" />
+          <ScalarProperty Name="Person" ColumnName="Person" />
+          <ScalarProperty Name="Event" ColumnName="Event" />
+          <ScalarProperty Name="Automobile" ColumnName="Automobile" />
+          <ScalarProperty Name="Other_tags" ColumnName="Other_tags" />
+          <ScalarProperty Name="Photo_Id" ColumnName="Photo_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

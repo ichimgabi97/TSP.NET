@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ec0a71f9e26444bdac82eb881713e90b" Name="Diagram1" >
+        <EntityTypeShape EntityType="Model1.Medias" Width="1.5" PointX="0.625" PointY="2.125" />
+        <EntityTypeShape EntityType="Model1.Videos" Width="1.5" PointX="3.75" PointY="0.75" />
+        <EntityTypeShape EntityType="Model1.Photos" Width="1.5" PointX="3.75" PointY="3.25" />
+        <EntityTypeShape EntityType="Model1.Tags_video" Width="1.5" PointX="6.375" PointY="0.75" />
+        <EntityTypeShape EntityType="Model1.Tags_photo" Width="1.5" PointX="6.375" PointY="3.375" />
+        <AssociationConnector Association="Model1.MediasPhotos" />
+        <AssociationConnector Association="Model1.MediasVideos" />
+        <AssociationConnector Association="Model1.PhotosTags_photo" />
+        <AssociationConnector Association="Model1.VideosTags_video" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

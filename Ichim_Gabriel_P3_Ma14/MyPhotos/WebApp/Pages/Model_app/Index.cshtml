@@ -1,0 +1,84 @@
+﻿@page
+@model WebApp.Pages.Model_app.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Model_App[0].Path)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Model_App[0].Add_date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Model_App[0].Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Model_App[0].Last_updated)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Model_App[0].Zone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Model_App[0].Person)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Model_App[0].Event)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Model_App[0].Automobile)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Model_App[0].Other_tags)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Model_App) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Path)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Add_date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Last_updated)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Zone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Person)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Event)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Automobile)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Other_tags)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
